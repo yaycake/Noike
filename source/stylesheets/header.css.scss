@@ -27,11 +27,14 @@
   font-style: normal;
   display: flex;
   flex-direction: horizontal;
+  .submenu-actions{
+    flex: 4;
+  }
 }
 
 
 .submenu > div {
-  border: 1px solid lightgray;
+  border: 1px solid #f7f7f7;
   border-right: none;
   flex: 1;
   padding: .5rem 0;
@@ -44,13 +47,16 @@
   align-content: center;
   justify-content: space-around;
   height: 3rem;
+  li {
+
+  }
 }
 
 .headerbanner {
   padding-top: 15px;
   width: 100%;
-  border: 1px solid gray;
-  background-color: lightgray;
+  border: 1px solid lightgray;
+  background-color: #f7f7f7;
   p {
     padding-left: 1rem;
     font-size: 10px;
