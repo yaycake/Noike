@@ -13,13 +13,9 @@
 
 .header>div>div {
 
-  // text-align: center;
-
-  // align-content: center;
 }
 
 .submenu {
-
   width: 100vw;
   font-size: 11px;
   color: gray;
@@ -28,6 +24,11 @@
   flex-direction: horizontal;
   .submenu-actions{
     flex: 4;
+    display: flex;
+    flex-direction: row-reverse;
+    span{
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -40,16 +41,43 @@
 }
 
 .mainmenu {
-  width: auto;
+  width: 100vw;
   font-size: 14px;
-
   align-content: center;
-  justify-content: space-around;
   height: 3rem;
-  li {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  // width: 60%;
+  justify-content: space-between;
 
+
+
+  .mainmenu-middle {
+    display: flex;
+    flex-direction: row;
+    div {
+      margin: 0 1rem;
+    }
   }
 }
+
+// .searchbar {
+//   div {
+//     font-family: futura-pt, sans-serif;
+//     text-transform: none;
+//     border: 1px solid gray;
+//     height: 2rem;
+//     width: 10rem;
+//     border-radius: 2px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: gray;
+//   }
+// }
+
+
 
 .headerbanner {
   padding-top: 15px;
@@ -85,33 +113,3 @@ ul>li{
    padding: 0 1rem;
 }
 
-.weekpicks {
-  display: flex;
-  flex-direction: row;
-}
-
-.shoo-preview{
-  flex: 1;
-  height: 350px;
-  text-align: left;
-  font-size: 12px;
-  p{
-    margin-left: .5rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    // margin-right: .5rem;
-  }
-}
-
-.graytext {
-  color: gray;
-}
-
-.shoo-preview-image{
-  background-image: url("https://images.unsplash.com/photo-1494254565731-1db5fbe64400?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a717cf015e68d1607cf0bad68b4d231f&auto=format&fit=crop&w=1001&q=80");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  margin: .5rem;
-  margin-right: 0;
-}

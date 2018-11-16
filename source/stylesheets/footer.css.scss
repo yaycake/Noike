@@ -1,0 +1,17 @@
+.footer {
+  height: 30vh;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  div {
+    width: 20%;
+    p{
+      font-size: 10px;
+    }
+  }
+}
+
