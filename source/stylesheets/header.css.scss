@@ -48,34 +48,18 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  // width: 60%;
   justify-content: space-between;
-
-
 
   .mainmenu-middle {
     display: flex;
     flex-direction: row;
+
     div {
-      margin: 0 1rem;
+      margin: 0 10px;
     }
   }
 }
 
-// .searchbar {
-//   div {
-//     font-family: futura-pt, sans-serif;
-//     text-transform: none;
-//     border: 1px solid gray;
-//     height: 2rem;
-//     width: 10rem;
-//     border-radius: 2px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     color: gray;
-//   }
-// }
 
 
 
